@@ -20,6 +20,6 @@ driver = TikTokDriver(use_virtual_display=False, browser="chrome",
 
 input("Continue?")
 # login with email and pwd
-driver.login("qazwu@ucdavis.edu", "1J45jp32l4@")
+driver.login("your_email", "your_pwd")
 # collect data at FYP
 driver.watch_for_you_page(1)
